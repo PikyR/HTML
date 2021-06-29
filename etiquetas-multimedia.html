@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <title>Etiquetas multimedia</title>
 </head>
 <body>
@@ -25,8 +25,11 @@
         <h3>Lossy</h3>
         <p>Con pérdida</p>
         <p>Los formatos de imagen con pérdidase aproximan a su imagen original. Por ejemplo, una imagen con pérdida podría reducir la cantidad de colores en su imagen o analizar  la imagen en busca de datos innecesarios. Esto reducirá el tamaño del archivo, aunque pueden reducir la calidad de su imagen</p>
-    
-        <img src="https://static.platzi.com/media/user_upload/table%20for%20diferent%20images-42fdf349-a492-4ff5-afbd-1f437c804e4a.jpg" width="600px">
+        
+        <figure>
+            <img src="https://static.platzi.com/media/user_upload/table%20for%20diferent%20images-42fdf349-a492-4ff5-afbd-1f437c804e4a.jpg" width="600px">
+        </figure>
+        
 
         <hr>
         <!-- Clase 12 -->
@@ -44,12 +47,28 @@
         <!-- Clase 13 -->
         <h3>Etiqueta img y figure</h3>
         <p>La etiqueta figure es la que se debe utulizar semanticamente par contener nuestras etiquetas img</p>
+
+        <!-- esta etiqueta tiene estilos por defecto -->
         <figure> 
             <img src="http://lorempixel.com/400/200/animals/9/" alt="Perro con correa roja">
             <figcaption>Perro con correa roja</figcaption>
         </figure>
 
-    </main>
+        <hr>
+        <!-- Clase 14 -->
 
+        <h3>Etiqueta video</h3>
+        <p>La etiqueta video, por defecto viene sin los controles de reproducción, para ello tenemos que agregar el atributo controls.</p>
+        <p>Otro atributo importante para esta etiqueta es preload, mediante el cual nuestro medio de video comienza a renderizar desde el moemento en que nuestro website comienza a cargar.</p>
+        <p>Dentro de nuestra la etiqueta video se puede utilizar otra etiqueta llamada source, con la cual podemos tener diferentes fuentes de nuestro video en distintos formatos, en caso de que el Cliente no soporte el algun tipo de formato.</p>
+        
+        <figure>
+            <video controls preload="auto">
+                <source src="video.mp4" >
+                <source src="video.webm" >
+                <source src="video.avi" >
+            </video>
+        </figure>
+    </main>
 </body>
 </html>
