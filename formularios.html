@@ -16,25 +16,47 @@
     <main>
         <!-- Clase 16 -->
         <h1>Formularios</h1>
-        <h4>El mejor formulario, es cuando no lo hay</h4>
+        <h4>Pro tip: El mejor formulario, es cuando no lo hay</h4>
 
         <form action="">
-            <label for="nombre">
-                <span>Ingresa tu nombre</span>
-                <input type="text" id="nombre" placeholder="Tu nombre">
-                <!-- el tributo id debe tener el mismo valor del atributo for de la etiqueta label -->
-            </label>
+            <label for="nombre">Ingresa tu nombre</label>
+            <input type="text" id="nombre" placeholder="Tu nombre"> <!-- el tributo id debe tener el mismo valor del atributo for de la etiqueta label -->
+            <br>
+            <label for="fecha-formulario">Fecha de nacimiento</label>
+            <input type="date" id="fecha-formulario">
+            <br>
+            <label for="horario">¿En que horario estudias?</label>
+            <input type="time" id="horario">
+        </form>
+        <hr>
+        <br>
+                
+        <!-- Clase 17 -->
+        <!-- Estos dos formularios hacen practicamente lo mismo, con la diferencia que uno tiene varios inputs y el otro solo uno -->
+        <form action="">
+            <label for="hora">Hora</label>
+            <input type="time" name="hora" id="hora"> 
+            <br>
+            <label for="dia">Día</label>
+            <input type="date" name="dia" id="dia">
+            <br>
+            <label for="semana">Semana</label>
+            <input type="week" name="semana" id="semana">
+            <br>
+            <label for="mes">Mes</label>
+            <input type="month" name="mes" id="mes">
+            <br>
+            <input type="submit">
+        </form>
 
-            <label for="fecha-formulario">
-                <span>Fecha de nacimiento</span>
-                <input type="date" id="fecha-formulario">
-            </label>
+        <hr>
+        <br>
 
-            <label for="horario">
-                <span>¿En que horario estudias?</span>
-                <input type="time" id="horario">
-            </label>
-        </form>        
+        <form action="">
+            <label for="calendario">Calendario</label>
+            <input type="datetime-local" name="calendario" id="calendario">
+            <input type="submit">
+        </form>
     </main>
 </body>
 </html>
