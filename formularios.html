@@ -32,31 +32,39 @@
         <br>
                 
         <!-- Clase 17 -->
-        <!-- Estos dos formularios hacen practicamente lo mismo, con la diferencia que uno tiene varios inputs y el otro solo uno -->
-        <form action="">
-            <label for="hora">Hora</label>
-            <input type="time" name="hora" id="hora"> 
-            <br>
-            <label for="dia">Día</label>
-            <input type="date" name="dia" id="dia">
-            <br>
-            <label for="semana">Semana</label>
-            <input type="week" name="semana" id="semana">
-            <br>
-            <label for="mes">Mes</label>
-            <input type="month" name="mes" id="mes">
-            <br>
-            <input type="submit">
-        </form>
+        <!-- Estos dos formularios hacen practicamente lo mismo, con la diferencia que uno tiene varios inputs y el otro solo uno. -->
+
+        <fieldset>
+            <legend>Formulario extenso</legend>
+            <form action="">
+                <label for="hora">Hora</label>
+                <input type="time" name="hora" id="hora"> 
+                <br>
+                <label for="dia">Día</label>
+                <input type="date" name="dia" id="dia">
+                <br>
+                <label for="semana">Semana</label>
+                <input type="week" name="semana" id="semana">
+                <br>
+                <label for="mes">Mes</label>
+                <input type="month" name="mes" id="mes">
+                <br>
+                <input type="submit">
+            </form>
+        </fieldset>
+        
 
         <hr>
         <br>
 
-        <form action="">
-            <label for="calendario">Calendario</label>
-            <input type="datetime-local" name="calendario" id="calendario">
-            <input type="submit">
-        </form>
+        <fieldset>
+            <legend>Formulario abreviado</legend>
+            <form action="">
+                <label for="calendario">Calendario</label>
+                <input type="datetime-local" name="calendario" id="calendario">
+                <input type="submit">
+            </form>
+        </fieldset>        
     </main>
 </body>
 </html>
