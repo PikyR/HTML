@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: #FAF1E6;
+  font-family: sans-serif;
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;  
+}
+
+h1{
+  margin: 20px;
+  text-align: center;
+}
+
+ul li { 
+  font-weight: bold;
+}
+
+ol li {
+  font-weight: normal;
+}
+
+p{
+  text-align: center;
+  margin-top: 20px;
+  background-color: #01937C;
+  line-height: 50px;
+}
