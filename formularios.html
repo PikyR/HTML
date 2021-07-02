@@ -75,20 +75,54 @@
                 <label for="nombre">Cual es tu nombre?</label>
                 <input type="text" name="nombre" autocomplete="name" required>
                 <br>
+                
                 <label for="correo">Cual es tu correo?</label>
                 <input type="email" name="correo" autocomplete="email" required>
                 <br>
+                
                 <label for="pais">En que pais vives?</label>
+                <!-- En este elemento del formulario es necesario un select, pero en en la clase se planteo de esta manera -->
                 <input type="text" name="pais" autocomplete="country-name" required>
                 <br>
+                
                 <label for="cp">Tu codigo postal?</label>
                 <input type="number" name="cp" autocomplete="postal-code" required>
                 <br>
+                
                 <input type="submit">
             </form>
         </fieldset>
 
-        
+        <!-- Clase 19 -->
+        <!-- select -->
+
+        <fieldset>
+            <legend>Estructura select tracdicional</legend>
+            <!-- Funciona mejor cuando no son demasiadas opciones pero es poco suceptible a errores o conflictos  -->
+            <form action="">
+                <select name="cursos-a" id="">
+                    <option value="JavaScritp">JavaScritp</option>
+                    <option value="HTML5">HTML5</option>
+                    <option value="CSS3">CSS3</option>
+                    <option value="Git">Git</option>
+                </select>
+                <input type="submit">
+            </form>
+        </fieldset>
+
+        <fieldset>
+            <legend>Estructura select moderna</legend>
+            <!-- Tiene mejor rendimiento cuando hay una lista muy amplia de opciones, pero pierde efectividad con los posibles errores de ortografia -->
+            <form action="">
+                <input list="cursos">
+                <datalist id="cursos">
+                    <option value="JavaScritp"></option>
+                    <option value="HTML5"></option>
+                    <option value="CSS3"></option>
+                    <option value="Git"></option>
+                </datalist>
+            </form>
+        </fieldset>
     </main>
 </body>
 </html>
