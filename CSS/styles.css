@@ -1,0 +1,17 @@
+/* Selector: etiqueta */
+span{
+  color:darkmagenta;
+  font-size: 20px;
+}
+
+/* Selector: clase */
+.txt{
+  font-weight: bold;
+  color: tomato;
+}
+
+/* Selector: ID */
+#texto{
+  font-size: 20px;
+  color: teal;
+}
