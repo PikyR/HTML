@@ -28,7 +28,7 @@
             <label for="horario">¿En que horario estudias?</label>
             <input type="time" id="horario">
         </form>
-        <hr>
+        
         <br>
                 
         <!-- Clase 17 -->
@@ -53,8 +53,6 @@
             </form>
         </fieldset>
         
-
-        <hr>
         <br>
 
         <fieldset>
@@ -64,7 +62,33 @@
                 <input type="datetime-local" name="calendario" id="calendario">
                 <input type="submit">
             </form>
-        </fieldset>        
+        </fieldset>
+
+        <br>
+
+        <!-- Clase 18  -->
+        <!-- autocomplete y required -->
+
+        <fieldset>
+            <legend>Campos requeridos y con autocompletado</legend>
+            <form action="">
+                <label for="nombre">Cual es tu nombre?</label>
+                <input type="text" name="nombre" autocomplete="name" required>
+                <br>
+                <label for="correo">Cual es tu correo?</label>
+                <input type="email" name="correo" autocomplete="email" required>
+                <br>
+                <label for="pais">En que pais vives?</label>
+                <input type="text" name="pais" autocomplete="country-name" required>
+                <br>
+                <label for="cp">Tu codigo postal?</label>
+                <input type="number" name="cp" autocomplete="postal-code" required>
+                <br>
+                <input type="submit">
+            </form>
+        </fieldset>
+
+        
     </main>
 </body>
 </html>
