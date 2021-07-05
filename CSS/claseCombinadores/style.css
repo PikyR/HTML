@@ -8,9 +8,19 @@ h2 + p {
 
 /* Clase 31 */
 /* Combinador de hermano general o general sibling */
-/* con este combinador se le aplicara el estilo a todas las etiquetas p que antes tengan como hermano general a un h2 */
+/** con este combinador se le aplicara el estilo a todas las etiquetas p que antes tengan como hermano general a un h2 */
 h2 ~ p {
-  background-color: yellowgreen;
+  border: solid 3px yellowgreen;
 }
 
+/* Clase 32 */
+/* Combinador hijo y descendiente */
+/** Child o Hijo directo (>): el estilo se le aplicará a los p que sean hijos directos de un div */
+div > p{
+  color: chocolate;
+}
 
+/**Descendiente o descendant: el estilo se aplica a todos los elementos p que esten dentro de un div sin inportar si esos elementos p estan dentro de otro "sub-padre"*/
+div p{
+  background-color: darkgrey;
+}
