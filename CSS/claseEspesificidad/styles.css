@@ -1,0 +1,40 @@
+/* Clase 27 y 28 */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: brown;
+  margin-bottom: 10px;
+  font-family: serif; /*Este estilo no se esta aplicando por que el selector tiene menos peso de especificidad que el ID #page-title*/
+}
+
+#page-title{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  font-size: 18px;
+  font-family: monospace; /*Este estilo no se esta aplicando por que el selector tiene menos peso de especificidad que el ID #page-title*/
+}
+
+#main-nav{
+  list-style: none;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+
+#main-nav li{
+  display: inline-block;
+}
+
+#main-nav a{
+  text-decoration: none;
+  color: antiquewhite;
+  background-color: darkcyan;
+  padding: 5px;
+  border-radius: 2px;
+}
