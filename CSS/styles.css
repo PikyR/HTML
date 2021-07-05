@@ -63,3 +63,15 @@ section {
   border: 15px solid slategrey;
   padding: 20px 35px;
 }
+
+/* Clase 26 */
+
+.c-26{
+  margin-top: 50px;
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.c-26 h1{
+  font-size: inherit;
+}
