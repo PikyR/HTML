@@ -1,0 +1,16 @@
+/* Clase 30 */
+/* Combinador de hermano cercano o adjacent sibling */
+/* con este combinador se le aplicara el estilo a todas las etiquetas p que esten inmediatamente despues de un h2 */
+h2 + p {
+  /* color: tomato; */
+}
+
+
+/* Clase 31 */
+/* Combinador de hermano general o general sibling */
+/* con este combinador se le aplicara el estilo a todas las etiquetas p que tengan como hermano general a un h2 */
+h2 ~ p {
+  background-color: yellowgreen;
+}
+
+
