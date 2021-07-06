@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clase 33 */
+main{
+  background-color: lightcoral;
+  width: 100%;
+  height: 300px;
+}
+
+/* 
+* px es un tipo de medida absoluta 
+* en todos los dispositivos es la misma
+*/
+.px{
+  font-size: 18px;
+}
+
+/*
+* % es un tipo de medida relativa
+* el tamaño varia segun el dispositivo
+* - En este ejemplo el parrafo con la clase .porcentaje tendra un tamaño de 8px (50% de 16px, que es el default de la etiqueta HTML)
+*/
+.porcentaje{
+  font-size: 50%;
+}
