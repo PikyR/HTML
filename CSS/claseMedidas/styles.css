@@ -1,3 +1,7 @@
+.hide{
+  display: none;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -7,8 +11,10 @@
 /* Clase 33 */
 main{
   background-color: lightcoral;
-  width: 100%;
+  width: 80%;
   height: 300px;
+
+  margin: 0 auto;
 }
 
 /* 
@@ -26,4 +32,21 @@ main{
 */
 .porcentaje{
   font-size: 50%;
+}
+
+/* Clase 34 
+* em es una medida de tipo relativa
+* - esta medida toma como valor base el tamaño de texto de su padre directo, en este caso 16px del default de la etiqueta HTML
+* - no es recomendable usar este tipo de de medida para proyectos extensos ya que es posible que las medidas crescan exponencialmente en etiquetas anidadas
+*/
+.text-container{
+  font-size: 1.5em;
+}
+
+/*
+* aqui se puede observar que, aunque los dos estilos tengan el mismo valor el resultado es diferente.
+* ya que este estilo toma como base el valor de su padre directo el que ya se encuentra en 1.5em (24px) y lo vuelve a multiplicar por 1.5
+*/
+.text-container div{
+  font-size: 1.5em;
 }
