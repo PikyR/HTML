@@ -37,7 +37,7 @@ main{
 /* Clase 34 
 * em es una medida de tipo relativa
 * - esta medida toma como valor base el tamaño de texto de su padre directo, en este caso 16px del default de la etiqueta HTML
-* - no es recomendable usar este tipo de de medida para proyectos extensos ya que es posible que las medidas crescan exponencialmente en etiquetas anidadas
+* - no es recomendable usar este tipo de de medida para proyectos extensos ya que es posible que las medidas crezcan exponencialmente en etiquetas anidadas
 */
 .text-container{
   font-size: 1.5em;
@@ -50,3 +50,21 @@ main{
 .text-container div{
   font-size: 1.5em;
 }
+
+/* Clase 35 */
+/* REM es una medida de tipo relativa
+*  siempre va a tener como valor base el font-size de root, osea la etiqueta <HTML/>, que por default seria 16px 
+*  de esta manera se evita conflictos como los que se originan con EM
+
+* * TIP * *
+Establecer con este valor el tamaño de fuente al root nos facilita el calculo de REM a PX ya que queda como base 10px
+
+html{  
+  font-size: 62.5%
+}
+*/
+
+.c35 p{
+  font-size: 1.5rem;
+}
+
