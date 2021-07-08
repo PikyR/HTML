@@ -5,13 +5,14 @@
 }
 
 /* Clase 33 */
+/*
 main{
   background-color: lightcoral;
   width: 80%;
   height: 300px;
 
   margin: 0 auto;
-}
+}*/
 
 /* 
 * px es un tipo de medida absoluta 
@@ -63,4 +64,3 @@ html{
 .c35 p{
   font-size: 1.5rem;
 }
-
