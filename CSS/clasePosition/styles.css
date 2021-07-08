@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Clase 36 */
+/* Position */
+/* Todas las etiquetas en HTML vienen con position: static como default */
+
+.parent{
+  border: 5px black dotted;
+  display: inline-block;
+}
+
+.box{
+  display: inline-block;
+  background-color: coral;
+  width: 100px;
+  height: 100px;
+}
+
+#two{
+  background-color: cyan;
+  position: relative;
+  bottom: 15px;
+  left: 15px;
+}

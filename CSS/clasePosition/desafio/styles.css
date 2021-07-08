@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 1.6rem;
+}
+
+.card{
+  background-color: lightgrey;
+  width: 60.0rem;
+  margin: 0 auto;  
+  border-radius: 1.5rem;
+  position: relative;
+  top: 5rem;
+}
+
+.card__title{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: tomato;
+  width: 50%;
+  height: 7.0rem;
+  line-height: 7.0rem;
+  margin: 0 auto;
+  border-radius: 1.0rem;
+  position: relative;
+  bottom: 3rem;
+  font-size: 1.6rem;
+}
+
+.card__text{
+  padding: 0 5rem 4rem 5rem;
+  text-align: justify;
+  text-indent: 1.5rem;
+}
