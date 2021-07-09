@@ -1,9 +1,98 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap");
+
+/* ROJO MR ROBOT #df2d2f  */
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{font-size: 62.5%;}
-body{font-size: 1.6rem;}
+html {
+  font-size: 62.5%;
+}
 
+body {
+  font-size: 1.6rem;
+  font-family: "Barlow", sans-serif;
+  color: whitesmoke;
+  background-image: linear-gradient(
+    to right,
+    #111111,
+    #191919,
+    #202020,
+    #272727,
+    #2f2f2f,
+    #2f2f2f,
+    #2f2f2f,
+    #2f2f2f,
+    #272727,
+    #202020,
+    #191919,
+    #111111
+  );
+}
+
+.container {
+  margin: 0 auto;
+  width: 70vw;
+  
+  height: 100vh;
+  /* background-color: darkgray; */
+}
+
+header {
+  /* background-color: black; */
+  padding: 1.5rem 0;
+  width: 100vw;
+  /* position: absolute;
+  left: 0; */
+}
+
+.main__logo {
+  display: inline-block;
+  position: absolute;
+  left: 15%;
+}
+
+.main__logo {
+  padding-left: 2rem;
+  width: 45%;
+}
+
+.main__logo img {
+  width: 12rem;  
+}
+
+.main__nav {
+  display: inline-block;
+  position: absolute;
+  right: 15%;  
+}
+
+.main__nav ul {
+  list-style: none;  
+}
+
+.main__nav ul li {
+  display: inline-block;
+}
+
+.main__nav .nav__item {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0.5rem 2rem;
+  margin-left: 2rem;
+  border-bottom: 0.2rem solid transparent;
+}
+
+.main__nav .nav__item:hover {
+  color: #df2d2f;
+  border-bottom: 0.1rem solid #df2d2f;
+}
+
+section {
+  background-color: wheat;
+  margin-top: 2.5rem;
+  height: 90vh;
+}
