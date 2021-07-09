@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&display=swap");
 
 /* ROJO MR ROBOT #df2d2f  */
 
@@ -36,7 +36,7 @@ body {
 .container {
   margin: 0 auto;
   width: 70vw;
-  
+
   height: 100vh;
   /* background-color: darkgray; */
 }
@@ -61,17 +61,17 @@ header {
 }
 
 .main__logo img {
-  width: 12rem;  
+  width: 12rem;
 }
 
 .main__nav {
   display: inline-block;
   position: absolute;
-  right: 15%;  
+  right: 15%;
 }
 
 .main__nav ul {
-  list-style: none;  
+  list-style: none;
 }
 
 .main__nav ul li {
@@ -92,7 +92,76 @@ header {
 }
 
 section {
-  background-color: wheat;
   margin-top: 2.5rem;
-  height: 90vh;
+  min-height: 10rem;
+  width: 100%;
+  min-width: 60rem; /*REVISAR*/
+}
+
+.section__aside {
+  min-width: 20rem;
+  width: 30%;
+  min-height: 50rem;
+  padding: 1rem 0;
+  display: inline-block;
+}
+
+.aside__item {
+  min-width: 15rem;
+  min-height: 8.4rem;
+  width: 80%;
+  height: 18rem;
+  margin: 0 auto 1rem auto;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-shadow: -0.1rem 0.1rem 0.3rem #444444, 0.1rem -0.1rem 0.3rem #444444;
+}
+
+.aside__item h3 {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.aside__item p {
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+.ep1,
+.ep2,
+.ep3,
+.ep4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ep1 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BOTk5NjE3MTU4NV5BMl5BanBnXkFtZTgwNjczMzk5NTE@._V1_FMjpg_UX900_.jpg);
+}
+
+.ep2 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BZjIzZGNlZDAtN2NmMi00NzNlLWEyNmItNjI1M2M3ZThlMmZmXkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_FMjpg_UX1280_.jpg);
+}
+
+.ep3 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMTg5OTkyMDc0M15BMl5BanBnXkFtZTgwMjA4MzgxNjE@._V1_FMjpg_UX900_.jpg);
+}
+
+.ep4 {
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMjMxMzQyODg3OV5BMl5BanBnXkFtZTgwODQ4MzgxNjE@._V1_FMjpg_UX900_.jpg);
+}
+
+.section__content {
+  display: inline-block;
+  /* background-color: cornflowerblue; */
+  position: absolute;
+  width: 49.4%;
+  min-height: 78rem;
+}
+
+.section__content div {
+  width: 100%;
+  height: 70%;
+  /* background-color: lawngreen; */
 }
