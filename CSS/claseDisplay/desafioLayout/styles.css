@@ -35,18 +35,12 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 70vw;
-
-  height: 100vh;
-  /* background-color: darkgray; */
+  width: 70vw;  
 }
 
 header {
-  /* background-color: black; */
   padding: 1.5rem 0;
-  width: 100vw;
-  /* position: absolute;
-  left: 0; */
+  width: 100%;  
 }
 
 .main__logo {
@@ -95,15 +89,18 @@ section {
   margin-top: 2.5rem;
   min-height: 10rem;
   width: 100%;
-  min-width: 60rem; /*REVISAR*/
+  min-width: 60rem;  
 }
 
 .section__aside {
   min-width: 20rem;
-  width: 30%;
+  width: 25%;
   min-height: 50rem;
   padding: 1rem 0;
   display: inline-block;
+  margin-right: 5rem;
+  
+  border-right: 0.1rem #df2d2f solid; 
 }
 
 .aside__item {
@@ -111,7 +108,7 @@ section {
   min-height: 8.4rem;
   width: 80%;
   height: 18rem;
-  margin: 0 auto 1rem auto;
+  margin: 0 auto 1rem 1rem;
   border-radius: 0.5rem;
   padding: 1rem;
   text-shadow: -0.1rem 0.1rem 0.3rem #444444, 0.1rem -0.1rem 0.3rem #444444;
@@ -153,15 +150,44 @@ section {
 }
 
 .section__content {
+  margin-top: 0.8rem;
+  border-radius: 1rem;
+  padding: 2rem;
   display: inline-block;
-  /* background-color: cornflowerblue; */
   position: absolute;
   width: 49.4%;
-  min-height: 78rem;
+  min-height: 75rem;
+
+  background-image: url(https://m.media-amazon.com/images/M/MV5BMTg2MDM5MzgyMl5BMl5BanBnXkFtZTgwMTkzMzk5NTE@._V1_FMjpg_UX900_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.section__content div {
+.section-container {
+  padding: 1.5rem;
+  position: relative;
+  top: 40rem;
+  height: auto;
   width: 100%;
-  height: 70%;
-  /* background-color: lawngreen; */
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.section-container h3{
+  font-size: 3rem;
+  color: #df2d2f;
+  background-color: black;
+  width: 25%;
+  text-transform: uppercase;
+}
+
+.section-container p{
+  font-size: 1.8rem;
+  font-weight: lighter;  
+  text-align: justify;
+}
+
+.red{
+  color: #df2d2f;
+  font-weight: normal;
+  background-color: black ;  
 }
