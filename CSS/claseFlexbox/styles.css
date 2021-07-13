@@ -13,42 +13,48 @@ body {
 
 .container {
   border: 0.5rem solid darkred;
+  /* height: 50vh; */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  /* justify-content:space-evenly;
+  align-items: center; */
 }
 
 .box {
-  width: 10rem;
-  height: 10rem;  
+  /* width: 10rem; */
+  height: 10rem;
+  flex-basis: 20rem;
+  flex-grow: 1;
 }
 
 .box1 {
   background-color: teal;
   color: rgb(0, 71, 71);
+  /* order: 5; */
 }
-
 .box2 {
   background-color: tomato;
   color: rgb(158, 62, 45);
+  /* order: 3; */
 }
-
 .box3 {
   background-color: burlywood;
   color: rgb(110, 91, 66);
+  /* order: 1; */
 }
-
 .box4 {
   background-color: cornflowerblue;
   color: rgb(44, 64, 102);
+  /* order: 6; */
 }
-
 .box5 {
   background-color: darkgreen;
   color: rgb(0, 46, 0);
+  /* order: 2; */
 }
-
 .box6 {
   background-color: goldenrod;
   color: rgb(109, 83, 17);
+  /* order: 4; */
 }
