@@ -1,11 +1,54 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-html{
+html {
   font-size: 62.5%;
 }
-body{
-  font-size: 1.6rem;
+body {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.container {
+  border: 0.5rem solid darkred;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 10rem;
+  height: 10rem;  
+}
+
+.box1 {
+  background-color: teal;
+  color: rgb(0, 71, 71);
+}
+
+.box2 {
+  background-color: tomato;
+  color: rgb(158, 62, 45);
+}
+
+.box3 {
+  background-color: burlywood;
+  color: rgb(110, 91, 66);
+}
+
+.box4 {
+  background-color: cornflowerblue;
+  color: rgb(44, 64, 102);
+}
+
+.box5 {
+  background-color: darkgreen;
+  color: rgb(0, 46, 0);
+}
+
+.box6 {
+  background-color: goldenrod;
+  color: rgb(109, 83, 17);
 }
