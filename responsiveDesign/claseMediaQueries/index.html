@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media queries</title>
+
+  <!-- De esta manera se organizan las hojas de estilo para mejorar la performance de nuestro proyecto, para que segun el dispositivo donde se este ejecutando solo cargue los estylos para dicho dispositivo -->
+  <link rel="stylesheet" href="./syles.css"> <!-- Esta hoja de estilos tiene que estar enfocada a dispositivos moviles -->
+  <!-- Luego se linkean las hojas de estilo para tablet y desktop/laptop respectivamente -->
+  <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 768px)"> <!-- Tablet - El atributo media es el breakpoin para que se aplique esta hojas de estilos al layout-->
+  <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1024px)"/> 
+</head>
+<body>
+  
+</body>
+</html>
