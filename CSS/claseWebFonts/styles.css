@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;  
+}
+body{
+  font-size: 2rem;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(46, 46, 46);
+  background-color: darkgray;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5rem 0.5rem
+}
+
+p{
+  text-align: justify;
+  text-indent: 4rem;
+}
