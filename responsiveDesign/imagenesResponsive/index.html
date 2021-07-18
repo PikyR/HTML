@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Images</title>
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main>
+    <figure>
+      <picture>
+        <!-- Es importante el orden de los source, tiene que ser de mayor a menor en el valor de min-width. -->
+        <source media="(min-width: 1300px)" srcset="./imgs/large.jpg">
+        <source media="(min-width: 1000px)" srcset="./imgs/medium.jpg">
+        <img src="./imgs/small.jpg" alt="Imagen de ejemplo">
+      </picture>
+    </figure>
+  </main>
+</body>
+</html>
